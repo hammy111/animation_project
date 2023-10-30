@@ -1,0 +1,31 @@
+@media screen and (max-width:310px) {
+    .section_1>div>h1{
+        padding-top: 150px;
+        font-size: 35px;
+        text-align: center;
+    }
+    .section_1>div>img{
+        width: 230px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .section_1>div:last-child{
+        padding: 0px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+    .section_1>div:last-child>p{
+        padding-top: 90px;
+        font-size: 16px;
+    }
+    .section_1>div:last-child>h2{
+       font-size: 18px;
+       align-items: center;
+    }
+    .section_1>div:last-child>button{
+        font-size: 16px;
+    }
+  
+}
